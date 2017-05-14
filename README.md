@@ -14,6 +14,10 @@ Plug 'sdeleon28/vim-todo'
 
 Then run `:PlugInstall` from within Vim.
 
+## Usage
+
+Create a file with a `.todo` extension and open it with Vim. You should automatically get the mappings and syntax highlighting.
+
 ## Mappings
 
 * `<Leader>[`: Adds a new TODO item at the current indentation level
@@ -21,11 +25,6 @@ Then run `:PlugInstall` from within Vim.
 * `<Leader>-`: Marks current task as in progress (puts a dash in the checkbox)
 * `<Leader><Leader>`: Resets the current task
 * `<Leader>]`: Edits the current task's description
-
-## Features
-
-* Mappings for item manipulation
-* Syntax highlighting
 
 ## Roadmap
 
