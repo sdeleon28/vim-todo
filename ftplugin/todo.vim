@@ -4,8 +4,8 @@ nnoremap <Leader>- ^lr-
 nnoremap <Leader><Leader> :exec "normal ^lr "<CR>
 nnoremap <Leader>] ^llllc$
 
+" ================================================================================
 " BEGIN markdown folding stolen from 'masukomi/vim-markdown-folding'
-
 " Fold expressions {{{1
 function! StackedMarkdownFolds()
   let thisline = getline(v:lnum)
@@ -167,3 +167,6 @@ let b:undo_ftplugin .= '
   \ | delcommand FoldToggle
   \ '
 " vim:set fdm=marker:
+"
+" END markdown folding stolen from 'masukomi/vim-markdown-folding'
+" ================================================================================

@@ -26,8 +26,11 @@ Create a file with a `.todo` extension and open it with Vim. You should automati
 * `<Leader><Leader>`: Resets the current task
 * `<Leader>]`: Edits the current task's description
 
+## Markdown folding
+
+I often mix my .todo files with markdown syntax. I've added markdown syntax folding (stolen from [masukomi/vim-markdown-folding](https://github.com/masukomi/vim-markdown-folding)). If that doesn't work for you, feel free to fork this and remove the whole block that does the markdown folding stuff. There are comments around it so it should be trivial to edit.
+
 ## Roadmap
 
 * Add commands and instructions on how to set up mappings to avoid conflicts
 * New command for "create item at the same indentation level" (`Yp<Leader>]`)
-
