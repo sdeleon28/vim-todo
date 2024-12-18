@@ -1,3 +1,5 @@
+runtime! syntax/markdown.vim
+
 " Syntax definition
 syntax match todoNew /\[ \].*/
 syntax match todoInProgress /\[-\].*/
